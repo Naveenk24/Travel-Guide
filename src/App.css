@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.travel-guide-heading {
+  color: #334155;
+  border-bottom: 3px solid #52bbf0;
+}
+
+.tavel-guid-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.travel-guide-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.travel-guide-list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #eef4f7;
+  width: 450px;
+  margin: 10px;
+}
+
+.travel-guide-card {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 450px;
+}
+
+.travel-guide-card-content {
+  background-color: #ffffff;
+  padding: 0px 5px 0px 10px;
+}
+
+.name {
+  line-height: 1;
+  color: #475569;
+  font-weight: 600;
+}
+
+.description {
+  color: #64748b;
+}
